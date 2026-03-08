@@ -16,7 +16,7 @@ Building a complete detection lab from scratch using Splunk, Sysmon, and Atomic 
 - **Tech:** Windows 10, Sysmon, Splunk Enterprise, Kali Linux.
 - **Status:** 🚧 In Progress (Telemetry setup complete)
 
-### 🏠 [SOC Home Lab](https://github.com/f23783/homelab-soc)
+### 🏠 [SOC Home Lab](https://github.com/f23783/soc-homelab)
 **Enterprise-Simulated Network Environment**
 My personal playground for network security monitoring.
 - **Architecture:** Segmented VLANs (User/Server), pfSense Firewall.
