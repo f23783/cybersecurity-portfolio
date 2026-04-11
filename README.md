@@ -9,7 +9,14 @@ Focused on SOC operations, detection engineering, and DFIR. This repository serv
 
 ## 🚀 Featured Projects
 
-### 🛡️ [EDR Detection Lab](https://github.com/f23783/edr-detection-lab)
+### 🛡️ [Wazuh SOC Homelab](https://github.com/f23783/wazuh-soc-homelab)
+**Hybrid SIEM/EDR Deployment**
+Connecting a local Wazuh Manager (Proxmox) to a remote VPS via Tailscale, featuring CIS hardening and Telegram alerts.
+- **Goal:** Monitor remote cloud assets securely from a local environment.
+- **Tech:** Wazuh, Tailscale, Ubuntu, UFW, Fail2ban.
+- **Status:** ✅ Complete (Defended against real brute-force attack)
+
+### 🔬 [EDR Detection Lab](https://github.com/f23783/edr-detection-lab)
 **Endpoint Detection & Response Pipeline**
 Building a complete detection lab from scratch using Splunk, Sysmon, and Atomic Red Team.
 - **Goal:** Simulate attacks and write custom SPL detection rules.
@@ -46,8 +53,8 @@ Detailed walkthroughs of HackTheBox machines and Sherlocks (Blue Team challenges
 ## 📚 Current Focus
 
 - **Certification:** Preparing for CompTIA Security+
-- **Project:** Developing custom detection rules for LSASS credential dumping (T1003.001)
-- **Research:** Automating writeup generation using LLMs (Pentest Scribe concept)
+- **Project:** Enhancing DFIR capabilities with Velociraptor integration
+- **Focus:** Developing custom detection rules for LSASS credential dumping (T1003.001)
 
 ---
 
